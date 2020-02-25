@@ -1,0 +1,38 @@
+html, body {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.card-wrap h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.model-row {
+    display: flex;
+    flex-direction: column;
+}
+.model-row h3 {
+    text-align: center;
+}
+.model-row-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.model-row-form-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.model-row-form-item label {
+    margin-bottom: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.card {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 20px;    
+}
